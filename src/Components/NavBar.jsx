@@ -69,9 +69,7 @@ export default function SearchAppBar({ searchValue, handleSearchChange }) {
 
   return (
     <div className={classes.root} >
-      <AppBar position="static" style = {{ 
-         backgroundImage: `url("https://www.skymetweather.com/content/wp-content/uploads/2020/12/Weather-Forecasting-Essay-c.jpg")` ,
-   }}>
+      <AppBar position="static" style = {{ backgroundColor: 'black' }}>
         <Toolbar>
           <Typography className={classes.title} variant="h6">
             THE WEATHER DAY
